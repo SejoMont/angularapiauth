@@ -1,0 +1,11 @@
+<div>
+    <form #authForm="ngForm">
+        <label>Usuario:</label>
+        <input type="text" class="form-control" #cajauser name="cajauser" >
+        <label>Password:</label>
+        <input type="text" class="form-control" #cajapassword name="cajapassword"  />
+        <button (click)="login()" class="btn btn-outline-success">
+            Login
+        </button>
+    </form>
+</div>
